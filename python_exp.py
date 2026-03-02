@@ -1,4 +1,5 @@
-a = 3
-b = 5
-sum_result = a + b
-print("The sum of", a, "and", b, "is:", sum_result)
+import math
+
+radius = 5
+area = math.pi * (radius ** 2)
+print(f"Area of the circle is {area:.2f}") 
